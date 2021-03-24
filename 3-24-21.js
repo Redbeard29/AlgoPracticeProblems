@@ -6,6 +6,7 @@ Ex: array = [-5, -3, 0, 3, 4, 5, 9];
 returns -> 3;
 */
 
+
 function indexEqualsValue(array) {
     let left = 0;
 	let right = array.length - 1;
