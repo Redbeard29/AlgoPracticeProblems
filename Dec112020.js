@@ -18,7 +18,6 @@ function isValidSubsequence(array, sequence){
     // if you do, incremement both and repeat process until you reach sequence.length
     // if you reach the end and have all matches, return true
     // otherwise, return false
-    var x = 0;
     var y = 0;
     for(var x = 0; x < array.length; x++){
         if(sequence.length > array.length) return false;
@@ -32,5 +31,5 @@ function isValidSubsequence(array, sequence){
     return false; 
 }
 
-console.log(isValidSubsequence([5,1,22,25,6,-1,8,10], [4,5,1,22,25,6,-1,8,10]));
+console.log(isValidSubsequence([5, 1, 22, 25, 6, -1, 8, 10], [1, 6, -1, 8, 10]));
 
